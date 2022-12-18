@@ -1,0 +1,247 @@
+*{
+  margin:0 auto;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+/* header  */
+.wrap{
+  width: 100%;
+}
+.top{
+  width: 100%;
+  height: 80px;
+  background-color: black;
+}
+
+.sign_up{
+  display: block;
+  width: 1280px;
+  background-color: black;
+
+  font-size: 14px;
+  text-align: right;
+  color: white;
+  padding-top: 8px;
+}
+.header{
+  width: 1280px;
+  margin: 0 auto;
+  display: flex;
+  align-items: baseline;
+}
+.logo{
+  display: flex;
+  margin-right: 145px;
+  
+
+  color: white;
+}
+.logo h1{
+  font-weight: 700;
+}
+.logo a{
+  text-decoration: none;
+  color: white;
+}
+.nav{
+  width: 800px;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 0;
+  margin-bottom: 4px;
+}
+.nav a{
+  text-decoration: none;
+  color: white;
+}
+.nav a:hover{
+  color: #D9D9D9;
+}
+.nav li{
+  color: white;
+  list-style: none;
+  font-size: 18px;
+
+}
+.wrap1{
+  width: 100%;
+  background-color:#282828;
+}
+.conA{
+  width: 1280px;
+  height: 482px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.talk{
+  margin: 0;
+  margin-right: 154px;
+
+  color: white;
+}
+.talk h2{
+  padding-bottom: 32px;
+}
+.review{
+  height: 334px;
+}
+.talk h3{
+  padding-top: 182px;
+  border-top: solid 1px white;
+}
+.review h3{
+  font-size: 22px;
+  color: white;
+}
+.post{
+  display: flex;
+  margin-top: 16px;
+}
+.first-review{
+  margin-right: 0;
+}
+.review-item{
+  width: 297px;
+  height: 297px;
+  object-fit: cover;
+  margin-right: 30px;
+}
+.review-item:hover{
+  scale: 1.05;
+  transition: 0.2s;
+}
+.review-item a{
+  display: block;
+}
+.review-item img{
+  display: block;
+  width: 100%;
+  height: 297px;
+  object-fit: cover;
+}
+.wrap2{
+  width: 1280px;
+  margin-top: 32px;
+  margin-bottom: 88px;
+}
+.wrap2 h2{
+  margin-bottom: 40px;
+}
+.insta{
+  width: 360px;
+  border-radius: 30px;
+
+  box-shadow: 2px 4px 10px 3px rgba(0, 0, 0, 0.25);
+
+}
+.insta_item{
+  display: flex;
+  justify-content: space-between;
+  width: 1210px;
+}
+.profile_img{
+  width:40px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: #D9D9D9;
+  margin: 0;
+  
+  display: inline-block;
+}
+.profile h3{
+  display: inline-block;
+  margin-left: 16px;
+}
+.profile {
+  display: flex;
+  justify-content: lefts;
+  align-items: center;
+  padding: 16px 16px;
+
+}
+
+.posting img{
+  padding: 0;
+  width: 100%;
+  height: 332px;
+  object-fit: cover;
+}
+.context{
+  padding: 8px 16px;
+  display: flex;
+}
+.context h3{
+  font-size: 14px;
+}
+.context p{
+  font-size: 12px;
+}
+.bottom-button{
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 80px;
+
+  width: 320px;
+  height: 70px;
+  border-radius: 35px;
+  text-align: center;
+  line-height: 70px;
+
+  background-color: black;
+}
+.bottom-button a{
+  text-decoration: nones;
+  color: white;
+}
+.bottom-button:hover{
+ scale: 1.1;
+ transition: 0.3s;
+}
+footer{
+  height: 160px;
+  width: 100%;
+  background-color: black;
+}
+.wrap4{
+  width: 1280px;
+ padding-top: 32px;
+ display: flex;
+}
+.factors{
+
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.factor1{
+  margin-right: 225px;
+}
+.factor1 h3{
+  color: white;
+  font-size: 18px;
+  margin-bottom: 4px;
+}
+.factor1 p{
+  color: white;
+}
+.factor2 a{
+  text-decoration: none;
+  color: white;
+}
+
+.factor3 a{
+  color: white;
+  text-decoration: underline;
+}
+.factor4 a{
+  color: white;
+  text-decoration: none;
+}
+h4{
+  color: white;
+  margin-bottom: 4px;
+}
